@@ -9,7 +9,7 @@ export default function Home() {
       </div>
       <div className="my-8">
         <Image
-          src="/your-profile-picture.jpg"
+          src="/images/profile.jpg"
           alt="Your Profile Picture"
           className="rounded-full"
           width={150}
