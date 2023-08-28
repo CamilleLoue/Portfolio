@@ -6,20 +6,21 @@ export default function Home() {
       <div className="flex gap-x-6">
         <Image
           src="/images/profile.jpg"
-          alt="Your Profile Picture"
-          className="rounded-full w-20 h-20"
-          width={80}
-          height={80}
+          alt="Profile Picture"
+          className="rounded-full w-22 h-22"
+          width={100}
+          height={100}
         />
-        <div className="flex flex-col gap-y-4">
-          <h1 className="text-4xl font-semibold ">Camille</h1>
+        <div className="flex flex-col gap-y-3">
+          <h1 className="text-2xl mt-2 font-semibold ">Camille</h1>
           <p className="text-lg text-gray-500">
             Freelance Machine Learning Engineer
           </p>
         </div>
       </div>
       <p className=" text-gray-600 max-w-md mt-8">
-        I am a passionate about Machine Learning and building products online.
+        I work in Machine Learning and I build products online.
+        Follow my journey here.
       </p>
     </main>
   );
