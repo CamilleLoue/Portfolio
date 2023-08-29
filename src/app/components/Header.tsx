@@ -42,6 +42,17 @@ function Header() {
             Contact
           </Link>
         </li>
+        <li>
+          <Link
+            className={classNames(
+              "text-gray-500 hover:text-white",
+              pathname === "/now" ? "text-white" : ""
+            )}
+            href="/now"
+          >
+            Now
+          </Link>
+        </li>
       </ul>
     </div>
   );

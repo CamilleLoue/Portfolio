@@ -14,13 +14,12 @@ export default function Home() {
         <div className="flex flex-col gap-y-3">
           <h1 className="text-2xl mt-2 font-semibold ">Camille</h1>
           <p className="text-lg text-gray-500">
-            Freelance Machine Learning Engineer
+            Machine Learning Engineer
           </p>
         </div>
       </div>
       <p className=" text-gray-600 max-w-md mt-8">
-        I work in Machine Learning and I build products online.
-        Follow my journey here.
+        I build ML models and products online.
       </p>
     </main>
   );
