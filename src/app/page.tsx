@@ -8,13 +8,16 @@ export default function Home() {
           src="/images/profile.jpg"
           alt="Profile Picture"
           className="rounded-full w-22 h-22"
-          width={100}
-          height={100}
+          width={110}
+          height={110}
         />
         <div className="flex flex-col gap-y-3">
           <h1 className="text-2xl mt-2 font-semibold ">Camille</h1>
           <p className="text-lg text-gray-500">
-            Machine Learning Engineer
+            <ul>
+              <li>Machine Learning Engineer by day</li>
+              <li>Indie Maker by night.</li>
+            </ul>
           </p>
         </div>
       </div>
