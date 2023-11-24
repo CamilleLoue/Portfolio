@@ -35,6 +35,17 @@ function Header() {
           <Link
             className={classNames(
               "text-gray-500 hover:text-white",
+              pathname === "/work" ? "text-white" : ""
+            )}
+            href="/work"
+          >
+            Work
+          </Link>
+        </li>
+        <li>
+          <Link
+            className={classNames(
+              "text-gray-500 hover:text-white",
               pathname === "/contact" ? "text-white" : ""
             )}
             href="/contact"
