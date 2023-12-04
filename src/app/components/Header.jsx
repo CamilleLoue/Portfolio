@@ -7,12 +7,12 @@ function Header() {
   const pathname = usePathname();
 
   return (
-    <div className="h-54 py-16 px-10 lg:px-0">
+    <div className="h-54 py-10 px-10 lg:px-0">
       <ul className="flex gap-x-6">
         <li>
           <Link
             className={classNames(
-              "text-gray-500 hover:text-white",
+              "text-neutral-500 hover:text-white",
               pathname === "/" ? "text-white" : ""
             )}
             href="/"
@@ -23,18 +23,7 @@ function Header() {
         <li>
           <Link
             className={classNames(
-              "text-gray-500 hover:text-white",
-              pathname === "/about" ? "text-white" : ""
-            )}
-            href="/about"
-          >
-            About
-          </Link>
-        </li>
-        <li>
-          <Link
-            className={classNames(
-              "text-gray-500 hover:text-white",
+              "text-neutral-500 hover:text-white",
               pathname === "/work" ? "text-white" : ""
             )}
             href="/work"
@@ -45,23 +34,23 @@ function Header() {
         <li>
           <Link
             className={classNames(
-              "text-gray-500 hover:text-white",
-              pathname === "/contact" ? "text-white" : ""
+              "text-neutral-500 hover:text-white",
+              pathname === "/projects" ? "text-white" : ""
             )}
-            href="/contact"
+            href="/projects"
           >
-            Contact
+            Projects
           </Link>
         </li>
         <li>
           <Link
             className={classNames(
-              "text-gray-500 hover:text-white",
-              pathname === "/now" ? "text-white" : ""
+              "text-neutral-500 hover:text-white",
+              pathname === "/contact" ? "text-white" : ""
             )}
-            href="/now"
+            href="/contact"
           >
-            Now
+            Contact
           </Link>
         </li>
       </ul>
