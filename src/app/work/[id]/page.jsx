@@ -25,14 +25,14 @@ export default function Page({ params }) {
   // Function to render project details conditionally as list or plain text
   const renderProjectDetails = (title, items) => {
     if (items.length === 1) {
-      return <p className="text-neutral-400 text-sm">{items[0]}</p>;
+      return <p className="text-zinc-400 text-sm">{items[0]}</p>;
     } else {
       return (
         <ul className="list-none space-y-2">
           {items.map((item, index) => (
             <li
               key={index}
-              className="pl-3 before:content-['•'] before:pr-2 text-neutral-400 text-sm"
+              className="pl-3 before:content-['•'] before:pr-2 text-zinc-400 text-sm"
             >
               {item}
             </li>
@@ -47,7 +47,7 @@ export default function Page({ params }) {
     return items.map((item, index) => (
       <span
         key={index}
-        className="inline-block bg-neutral-700 text-neutral-300 text-xs mr-2 px-2.5 py-0.5 rounded mb-2"
+        className="inline-block bg-zinc-700 text-zinc-300 text-xs mr-2 px-2.5 py-0.5 rounded mb-2"
       >
         {item}
       </span>
@@ -55,10 +55,10 @@ export default function Page({ params }) {
   };
 
   return (
-    <div className="text-neutral-300 pb-14">
+    <div className="text-zinc-300 pb-14">
       <h1 className="text-2xl mb-4">{workItem.project_title}</h1>
       <p className="text-base mb-8">
-        Client: <span className="text-neutral-400">{workItem.client}</span>
+        Client: <span className="text-zinc-400">{workItem.client}</span>
       </p>
 
       <div className="sm:mt-5 xl:mx-auto xl:max-w-7xl pb-8">
@@ -91,9 +91,9 @@ export default function Page({ params }) {
         {renderProjectDetails("Learnings", workItem.learnings)}
       </section>
 
-      <div className="flex flex-wrap -mx-4">
+      <div className="flex flex-wrap -mx-4 mb-8">
         <div className="w-full md:w-1/2 px-4 mb-6 md:mb-0">
-          <div className="bg-neutral-900 rounded-lg p-3">
+          <div className="bg-zinc-900 rounded-lg p-3">
             <h2 className="mb-4">Skills</h2>
             <div className="flex flex-wrap">
               {renderBadges(workItem.skills)}
@@ -102,7 +102,7 @@ export default function Page({ params }) {
         </div>
 
         <div className="w-full md:w-1/2 px-4">
-          <div className="bg-neutral-900 rounded-lg p-3">
+          <div className="bg-zinc-900 rounded-lg p-3">
             <h2 className="mb-4">Technologies</h2>
             <div className="flex flex-wrap">
               {renderBadges(workItem.technologies)}
