@@ -2,12 +2,13 @@
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { classNames } from "../utils";
+import { ArrowUpRightIcon } from "@heroicons/react/24/outline";
 
 function Header() {
   const pathname = usePathname();
 
   return (
-    <div className="flex justify-between mt-2">
+    <div className="flex justify-between mt-1">
       <div className="flex flex-col py-8">
         <Link href="/" className="text-base text-zinc-300 hover:text-white">
           Camille Loue
@@ -26,7 +27,7 @@ function Header() {
               )}
               href="/"
             >
-              Home
+              home
             </Link>
           </li>
           <li>
@@ -37,7 +38,7 @@ function Header() {
               )}
               href="/work"
             >
-              Work
+              work
             </Link>
           </li>
           <li>
@@ -48,20 +49,15 @@ function Header() {
               )}
               href="/projects"
             >
-              Projects
+              projects
             </Link>
           </li>
-          <li>
-            <Link
-              className={classNames(
-                "text-zinc-500 hover:text-white",
-                pathname === "/contact" ? "text-white" : ""
-              )}
-              href="/contact"
-            >
-              Contact
-            </Link>
-          </li>
+          <div className="flex justify-between text-zinc-500 hover:text-white">
+            <a className="mr-1" href="mailto:contact@camilleloue.com">
+              contact me
+            </a>
+            <ArrowUpRightIcon className="w-3 h-3 transform transition-transform duration-300" />
+          </div>
         </ul>
       </div>
     </div>
