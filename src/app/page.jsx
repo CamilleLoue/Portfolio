@@ -24,8 +24,8 @@ export default function Home() {
       <div className="w-3/4 text-base text-zinc-400 mt-12">
         For the past two years, I&apos;ve worked as a freelance ML engineer and
         have been building web apps alongside. While machine learning is a key
-        part of my journey, creating web apps is where I have the most fun. 
-        Feel free to have a look at my{" "}
+        part of my journey, creating web apps is where I have the most fun. Feel
+        free to have a look at my{" "}
         <a
           href="/work"
           className="text-zinc-300 underline underline-offset-2 decoration-zinc-300/50 hover:text-white"
@@ -41,108 +41,6 @@ export default function Home() {
         </a>
         .
       </div>
-
-      {/* <section className="mt-10">
-        <h2 className="text-base text-zinc-400">Some of my skills & technologies I use</h2>
-      </section> */}
-
-      {/* <div className="flex flex-wrap gap-4 mt-10">
-        <div className="flex-1 p-4 border border-zinc-900 rounded-lg shadow-sm">
-          <h3 className="font-semibold text-zinc-300 mb-4">ML / Data Science</h3>
-          <div className="flex flex-wrap justify-center gap-3">
-            <Image
-              src="/images/tech_logos/python.svg"
-              alt="Python Logo"
-              width={10}
-              height={10}
-              className="h-7 w-7"
-            />
-            <Image
-              src="/images/tech_logos/streamlit.svg"
-              alt="Streamlit Logo"
-              width={10}
-              height={10}
-              className="h-7 w-7"
-            />
-            <Image
-              src="/images/tech_logos/tensorflow.svg"
-              alt="TensorFlow Logo"
-              width={10}
-              height={10}
-              className="h-7 w-7"
-            />
-            <Image
-              src="/images/tech_logos/scikit-learn.svg"
-              alt="ScikitLearn Logo"
-              width={10}
-              height={10}
-              className="h-7 w-7"
-            />
-            <Image
-              src="/images/tech_logos/gcp.svg"
-              alt="GCP Logo"
-              width={10}
-              height={10}
-              className="h-7 w-7"
-            />
-            <Image
-              src="/images/tech_logos/azure.svg"
-              alt="Azure Logo"
-              width={10}
-              height={10}
-              className="h-7 w-7"
-            />
-          </div>
-        </div>
-
-        <div className="flex-1 p-4 border border-zinc-900 rounded-lg shadow-sm">
-          <h3 className="font-semibold text-zinc-300 mb-4">Web Development</h3>
-          <div className="flex flex-wrap justify-center gap-3">
-            <Image
-              src="/images/tech_logos/nodejs.svg"
-              alt="NodeJS Logo"
-              width={10}
-              height={10}
-              className="h-7 w-7"
-            />
-            <Image
-              src="/images/tech_logos/nextjs.svg"
-              alt="NextJS Logo"
-              width={10}
-              height={10}
-              className="h-7 w-7"
-            />
-            <Image
-              src="/images/tech_logos/react.svg"
-              alt="React Logo"
-              width={10}
-              height={10}
-              className="h-7 w-7"
-            />
-            <Image
-              src="/images/tech_logos/tailwind.svg"
-              alt="Tailwind Logo"
-              width={10}
-              height={10}
-              className="h-7 w-7"
-            />
-            <Image
-              src="/images/tech_logos/supabase.svg"
-              alt="Supabase Logo"
-              width={10}
-              height={10}
-              className="h-7 w-7"
-            />
-            <Image
-              src="/images/tech_logos/vercel.svg"
-              alt="Vercel Logo"
-              width={10}
-              height={10}
-              className="h-7 w-7"
-            />
-          </div>  
-        </div>
-      </div> */}
 
       <section className="mt-12 text-base text-zinc-400">
         If you have anything in mind,{" "}
