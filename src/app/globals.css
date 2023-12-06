@@ -4,10 +4,9 @@
 
 /* Custom CSS or TailwindCSS configuration */
 .hover\:card-hover:hover .card-title {
-    color: white; /* Change title color to white on hover */
-  }
-  .hover\:card-hover:hover .w-5 {
-    transform: rotate(20deg);
-    color: white; /* Change arrow color to white on hover */
-  }
-  
+  color: white;
+}
+.hover\:card-hover:hover .w-5 {
+  transform: rotate(20deg);
+  color: white;
+}
