@@ -18,11 +18,7 @@ const map = [
       "Generated visualizations using Matplotlib.",
       "Presented the findings in a 15-slide presentation to the CEO and the board.",
     ],
-    technologies: [
-      "Pandas",
-      "Matplotlib",
-      "Azure",
-    ],
+    technologies: ["Python", "Matplotlib", "Azure"],
     results: [
       "The project resulted in a roadmap for prioritizing future work, with an initial focus on predicting property prices for 2 and 3-room flats in the Ile-de-France region, excluding apartments sold off-plan. This strategic approach allowed for more efficient resource allocation and targeted development efforts.",
     ],
@@ -53,14 +49,7 @@ const map = [
       "Developed an interactive Plotly Dashboard with Mapbox and geopandas for users to access property price information by hovering over specific regions.",
       "Built an estimation model using scikit-learn, implementing a simple but effective linear regression for property price estimation and integrated it with ETL pipeline.",
     ],
-    technologies: [
-      "Selenium",
-      "Numpy",
-      "Geopandas",
-      "Plotly",
-      "Mapbox",
-      "Scikit-learn",
-    ],
+    technologies: ["Python", "Plotly","Scikit-learn","Azure"],
     results: [
       "The project improved the product's value by providing a robust database and an estimation model for property prices.",
     ],
@@ -89,7 +78,7 @@ const map = [
       "Basic MAB: The initial step involved implementing a basic Multi-Armed Bandit.",
       "Contextual MAB: In the second phase, context was introduced into the model by implementing the inference API and using the LinUCB Disjoint Multi-Armed Bandit mode.",
     ],
-    technologies: ["GCP", "Airflow", "Batched Offline Policy MAB"],
+    technologies: ["Python", "TensorFlow", "Airflow", "Streamlit", "GCP"],
     results: [
       "Achieved a 33% increase in Click Through Rate (CTR) following the implementation of the Multi-Armed Bandit optimization.",
       "Improved the overall effectiveness of CloudIQ's marketing platform, leading to more successful customer conversions.",
@@ -117,7 +106,7 @@ const map = [
       "The project involved extensive exploration of the model's capabilities and limitations.",
       "The primary focus was on identifying where the DeepAR model performed optimally (with specific types of data) and where it showed limitations. This assessment was done using a confidence interval.",
     ],
-    technologies: ["Numpy", "DeepAR Time Series Model", "Matplotlib"],
+    technologies: ["Python", "Matplotlib", "Scikit-Learn", "GCP"],
     results: [
       "Achieved an accuracy rate of 93% for a prediction window of 3 months, demonstrating the model's effectiveness in delivering reliable forecasts.",
       "Provided CloudIQ's clients with valuable insights into demand patterns, enabling more informed decision-making and resource allocation.",

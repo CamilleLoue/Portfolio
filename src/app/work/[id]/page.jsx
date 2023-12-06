@@ -2,6 +2,7 @@
 import { useEffect, useState } from "react";
 import Image from "next/image";
 import { map } from "../mapping";
+import LogoCard from "@/app/components/LogoCard.jsx";
 import { redirect } from "next/navigation";
 
 export default function Page({ params }) {
@@ -105,7 +106,11 @@ export default function Page({ params }) {
           <div className="bg-zinc-900 rounded-lg p-3">
             <h2 className="mb-4">Technologies</h2>
             <div className="flex flex-wrap">
-              {renderBadges(workItem.technologies)}
+              {workItem.technologies.map((tech, index) => (
+                <div key={index} className="mr-2 mb-2">
+                  <LogoCard techTitle={tech} />
+                </div>
+              ))}
             </div>
           </div>
         </div>
