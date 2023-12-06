@@ -1,5 +1,23 @@
+"use client";
+import ProjectCard from "../components/ProjectCard.jsx";
+import { map } from "./mapping.js";
+
 function ProjectPage() {
-  return <div>Project Page</div>;
+  return (
+    <div>
+      <h3 className="mb-8 text-zinc-300">
+        Some of my projects
+      </h3>
+      {map.map((item) => (
+        <ProjectCard
+          key={item.id} 
+          title={item.project_title}
+          href={item.href} 
+          techTitles={item.technologies}
+        />
+      ))}
+    </div>
+  );
 }
 
 export default ProjectPage;
