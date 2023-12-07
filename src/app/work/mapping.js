@@ -1,7 +1,7 @@
 const map = [
   {
     id: "real-estate-data-analysis",
-    project_title: "Real Estate Data Analysis",
+    project_title: "Real estate data analysis",
     image_source: "/images/work/data-viz.png",
     image_width: 550,
     dates: "Aug 2022 - Sept 2022",
@@ -29,7 +29,7 @@ const map = [
   },
   {
     id: "price-estimation-model",
-    project_title: "Price Estimation Model",
+    project_title: "Price estimation model",
     image_source: "/images/work/mapbox-prix.png",
     image_width: 700,
     dates: "Nov 2022 - Feb 2023",
@@ -60,7 +60,7 @@ const map = [
   },
   {
     id: "recommender-system-optimisation",
-    project_title: "Recommender System Optimisation with RL",
+    project_title: "Recommender system optimisation with RL",
     image_source: "/images/work/mab-plot.jpg",
     image_width: 450,
     dates: "Mar 2023 - Aug 2023",
@@ -91,7 +91,7 @@ const map = [
   },
   {
     id: "demand-forecasting",
-    project_title: "Demand Forecasting",
+    project_title: "Demand forecasting",
     image_source: "/images/work/timeseries-plot.png",
     image_width: 700,
     dates: "Aug 2023 - oct 2023",

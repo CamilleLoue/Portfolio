@@ -2,7 +2,6 @@ import React from "react";
 import { ArrowUpRightIcon } from "@heroicons/react/24/outline";
 import LogoCard from "./LogoCard.jsx";
 
-
 const WorkCard = ({ title, dates, techTitles }) => {
   return (
     <div className="border font-sans border-zinc-800 bg-zinc-900 rounded flex flex-col justify-between mb-5 px-3 py-3 w-full cursor-pointer hover:card-hover">

@@ -1,12 +1,9 @@
 import "./globals.css";
-// Import React if not globally available
-import React from 'react';
 import { Inter } from "next/font/google";
 import Header from "./components/Header.jsx";
 
 const inter = Inter({ subsets: ["latin"] });
 
-// Removed TypeScript type annotation for metadata
 export const metadata = {
   title: "Camille Loue",
   description: "my personal website",

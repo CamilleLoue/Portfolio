@@ -19,21 +19,20 @@ export default function Page({ params }) {
   }, [params.id]);
 
   if (workItem === undefined) {
-    // TODO: Add some sort of loading animation
-    return <div>Loading...</div>; // Placeholder for loading animation
+    return <div className="animate-spin" />;
   }
 
   // Function to render project details conditionally as list or plain text
   const renderProjectDetails = (title, items) => {
     if (items.length === 1) {
-      return <p className="text-zinc-400 text-sm">{items[0]}</p>;
+      return <p className="text-zinc-400">{items[0]}</p>;
     } else {
       return (
         <ul className="list-none space-y-2">
           {items.map((item, index) => (
             <li
               key={index}
-              className="pl-3 before:content-['•'] before:pr-2 text-zinc-400 text-sm"
+              className="pl-3 before:content-['•'] before:pr-2 text-zinc-400"
             >
               {item}
             </li>

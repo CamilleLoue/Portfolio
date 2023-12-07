@@ -10,9 +10,9 @@ function ProjectPage() {
       </h3>
       {map.map((item) => (
         <ProjectCard
-          key={item.id} 
+          key={item.id}
           title={item.project_title}
-          href={item.href} 
+          href={item.href}
           techTitles={item.technologies}
         />
       ))}

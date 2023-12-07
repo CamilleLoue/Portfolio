@@ -8,7 +8,7 @@ function WorkPage() {
   return (
     <div>
       <h3 className="mt-4 mb-8 font-sans text-xl text-zinc-300">
-      some of my work as a ML engineer
+        some of my work as a ML engineer
       </h3>
       {map.map((item) => (
         <Link href={`/work/${item.id}`} key={item.id}>
