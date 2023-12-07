@@ -14,10 +14,10 @@ function Header() {
           Camille Loue
         </Link>
         <Link href="/" className="text-sm text-zinc-500">
-          ML Engineer & Indie Maker
+          ML engineer. Indie maker.
         </Link>
       </div>
-      <div className="py-8 px-9 lg:px-0">
+      <div className="py-8 px-9 lg:px-0 font-sans">
         <ul className="flex gap-x-6">
           <li>
             <Link

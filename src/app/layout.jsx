@@ -9,7 +9,7 @@ const inter = Inter({ subsets: ["latin"] });
 // Removed TypeScript type annotation for metadata
 export const metadata = {
   title: "Camille Loue",
-  description: "My Personal Website",
+  description: "my personal website",
 };
 
 export default function RootLayout({ children }) {

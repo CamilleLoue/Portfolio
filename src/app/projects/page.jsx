@@ -5,8 +5,8 @@ import { map } from "./mapping.js";
 function ProjectPage() {
   return (
     <div>
-      <h3 className="mb-8 text-zinc-300">
-        Some of my projects
+      <h3 className="mt-4 mb-8 font-sans text-xl text-zinc-300">
+        some of my projects
       </h3>
       {map.map((item) => (
         <ProjectCard
