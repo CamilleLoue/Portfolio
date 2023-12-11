@@ -2,26 +2,31 @@ import Image from "next/image";
 
 export default function Home() {
   return (
-    <main className="mt-8 flex flex-col items-start px-10 lg:px-0">
-      <div className="flex gap-x-6">
-        <Image
-          src="/images/profile.png"
-          alt="Profile Picture"
-          className="rounded-full w-22 h-22 aspect-square"
-          width={120}
-          height={120}
-        />
+    <main className="mt-8 flex flex-col items-start px-8 lg:px-0">
+      <div className="flex lg:flex-row gap-6 items-center">
+        <div className="rounded-full w-24 h-24 lg:w-32 lg:h-32 aspect-square">
+          <Image
+          className="rounded-full"
+            src="/images/profile.png"
+            alt="Profile Picture"
+            layout="responsive"
+            width={100}
+            height={100}
+          />
+        </div>
         <div>
-          <h1 className="mt-6 text-xl text-zinc-200">hi, I&apos;m Camille</h1>
+          <h1 className="w-5/6 lg:w-full text-lg lg:text-xl text-zinc-200">
+            hi, I&apos;m Camille
+          </h1>
           <div>
-            <p className="mt-2 text-lg text-zinc-400">
+            <p className="w-5/6 lg:w-full lg:mt-2 text-base lg:text-lg text-zinc-400">
               I launch ML models and web apps.
             </p>
           </div>
         </div>
       </div>
 
-      <div className="w-3/4 font-sans text-base text-zinc-400 mt-12">
+      <div className="lg:w-3/4 w-7/8 font-sans text-base text-zinc-400 mt-6 lg:mt-12">
         For the past two years, I&apos;ve worked as a freelance ML engineer and
         have been building web apps alongside. While machine learning is a key
         part of my journey, creating web apps is where I have the most fun. Feel
@@ -42,7 +47,7 @@ export default function Home() {
         .
       </div>
 
-      <section className="mt-12 text-base text-zinc-400">
+      <section className="mt-8 lg:mt-12 text-base text-zinc-400">
         If you have anything in mind,{" "}
         <a
           href="mailto:contact@camilleloue.com"
@@ -51,8 +56,10 @@ export default function Home() {
           contact me
         </a>
         .
-        <div className="flex items-center gap-3 mt-12">
-          <h2 className="text-base text-zinc-400">You can also find me on</h2>
+        <div className="flex items-center gap-3 mt-8 lg:mt-12">
+          <h2 className="text-base text-zinc-400">
+            You can also find me on
+          </h2>
 
           <a
             href="https://github.com/CamilleLoue"
