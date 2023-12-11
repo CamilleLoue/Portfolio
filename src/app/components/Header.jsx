@@ -8,16 +8,18 @@ function Header() {
   const pathname = usePathname();
 
   return (
-    <div className="flex justify-between mt-1">
-      <div className="flex flex-col py-8">
-        <Link href="/" className="text-base text-zinc-300 hover:text-white">
-          Camille Loue
-        </Link>
-        <Link href="/" className="text-sm text-zinc-500">
-          ML engineer. Indie maker.
-        </Link>
+    <div className="flex lg:flex-row justify-between mt-1">
+      <div className="lg:flex lg:flex-col lg:py-8 py-4">
+        <div className="hidden lg:flex flex-col">
+          <Link href="/" className="text-base text-zinc-300 hover:text-white">
+            Camille Loue
+          </Link>
+          <Link href="/" className="text-sm text-zinc-500">
+            ML engineer. Indie maker.
+          </Link>
+        </div>
       </div>
-      <div className="py-8 px-9 lg:px-0 font-sans">
+      <div className="py-4 lg:py-8 px-4 lg:px-0 font-sans">
         <ul className="flex gap-x-6">
           <li>
             <Link
