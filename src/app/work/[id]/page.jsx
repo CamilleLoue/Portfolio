@@ -28,11 +28,11 @@ export default function Page({ params }) {
       return <p className="text-zinc-400">{items[0]}</p>;
     } else {
       return (
-        <ul className="list-none space-y-2">
+        <ul className="list-none space-y-0 lg:space-y-2">
           {items.map((item, index) => (
             <li
               key={index}
-              className="pl-3 before:content-['•'] before:pr-2 text-zinc-400"
+              className="pl-2 before:content-['•'] before:pr-2 text-zinc-400"
             >
               {item}
             </li>
@@ -55,8 +55,8 @@ export default function Page({ params }) {
   };
 
   return (
-    <div className="text-zinc-300 pb-14">
-      <h1 className="text-2xl mb-4">{workItem.project_title}</h1>
+    <div className="px-8 lg:px-0 pt-3 lg:pt-0 text-zinc-300 pb-14">
+      <h1 className="text-xl lg:text-2xl mb-4">{workItem.project_title}</h1>
       <p className="text-base mb-8">
         Client: <span className="text-zinc-400">{workItem.client}</span>
       </p>
@@ -72,22 +72,22 @@ export default function Page({ params }) {
       </div>
 
       <section className="mb-10">
-        <h2 className="text-lg mb-4">Project Overview</h2>
+        <h2 className="text-base lg:text-lg mb-4">Project Overview</h2>
         {renderProjectDetails("Project Overview", workItem.project_overview)}
       </section>
 
       <section className="mb-10">
-        <h2 className="text-lg mb-4">Development</h2>
+        <h2 className="text-base lg:text-lg mb-4">Development</h2>
         {renderProjectDetails("Development", workItem.development)}
       </section>
 
       <section className="mb-10">
-        <h2 className="text-lg mb-4">Results</h2>
+        <h2 className="text-base lg:text-lg mb-4">Results</h2>
         {renderProjectDetails("Results", workItem.results)}
       </section>
 
       <section className="mb-10">
-        <h2 className="text-lg mb-4">Learnings</h2>
+        <h2 className="text-base lg:text-lg mb-4">Learnings</h2>
         {renderProjectDetails("Learnings", workItem.learnings)}
       </section>
 
