@@ -6,7 +6,7 @@ const LogoCard = ({ techTitle }) => {
   const imageTitle = typeof techTitle === "string" ? techTitle.toLowerCase() : "";
 
   return (
-    <div className="flex items-center bg-zinc-800 border border-zinc-700 text-gray-200 rounded py-1 px-1.5">
+    <div className="flex items-center bg-zinc-800 border border-zinc-700 text-zinc-200 rounded py-1 px-1.5">
       <Image
         src={`/images/tech_logos/${imageTitle}.svg`}
         alt={`${techTitle} Logo`}
