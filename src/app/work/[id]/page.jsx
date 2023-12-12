@@ -25,14 +25,14 @@ export default function Page({ params }) {
   // Function to render project details conditionally as list or plain text
   const renderProjectDetails = (title, items) => {
     if (items.length === 1) {
-      return <p className="text-zinc-400">{items[0]}</p>;
+      return <p className="text-opacity-90 text-zinc-300">{items[0]}</p>;
     } else {
       return (
         <ul className="list-none space-y-0 lg:space-y-2">
           {items.map((item, index) => (
             <li
               key={index}
-              className="pl-2 before:content-['•'] before:pr-2 text-zinc-400"
+              className="pl-2 before:content-['•'] before:pr-2 text-opacity-90 text-zinc-300"
             >
               {item}
             </li>
@@ -58,7 +58,7 @@ export default function Page({ params }) {
     <div className="px-8 lg:px-0 pt-3 lg:pt-0 text-zinc-300 pb-14">
       <h1 className="text-xl lg:text-2xl mb-4">{workItem.project_title}</h1>
       <p className="text-base mb-8">
-        Client: <span className="text-zinc-400">{workItem.client}</span>
+        Client: <span className="text-opacity-90 text-zinc-300">{workItem.client}</span>
       </p>
 
       <div className="sm:mt-5 xl:mx-auto xl:max-w-7xl pb-8">
