@@ -53,7 +53,7 @@ export default function Home() {
           href="mailto:contact@camilleloue.com"
           className="text-zinc-100 underline underline-offset-2 decoration-zinc-300/50 hover:text-white hover:decoration-zinc-200"
         >
-          contact me
+          get in touch
         </a>
         .
         <div className="flex flex-col lg:flex-row gap-3 mt-8 lg:mt-12">
