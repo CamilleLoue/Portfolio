@@ -56,7 +56,7 @@ function Header() {
           </li>
           <div className="flex justify-between text-zinc-500 hover:text-white">
             <a className="mr-1" href="mailto:contact@camilleloue.com">
-              contact me
+              hire me
             </a>
             <ArrowUpRightIcon className="w-3 h-3 transform transition-transform duration-300" />
           </div>
