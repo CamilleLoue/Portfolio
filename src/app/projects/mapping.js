@@ -6,12 +6,6 @@ const map = [
     technologies: ["NodeJS","React","Tailwind","GCP"],
   },
   {
-    id: "voila-lead",
-    project_title: "VoilaLead",
-    href: "https://www.voilalead.com/",
-    technologies: ["Python"],
-  },
-  {
     id: "netglobal",
     project_title: "NetGlobal",
     href: "https://www.netglobal.io/",
