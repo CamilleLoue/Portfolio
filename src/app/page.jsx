@@ -27,17 +27,17 @@ export default function Home() {
       </div>
 
       <div className="lg:w-3/4 w-7/8 font-sans text-base text-opacity-90 text-zinc-300 mt-8 lg:mt-12">
-        For the past two years, I&apos;ve worked as a freelance ML engineer and
-        have been building web apps alongside. While machine learning is a key
-        part of my journey, creating web apps is where I have the most fun. Feel
-        free to have a look at my{" "}
+        I spent 2 years freelancing as an ML engineer, building web apps alongside. 
+        While machine learning is a key part of my journey, creating web apps is where I have the most fun. 
+        This passion led me to my current position as a Software Engineer. 
+        Feel free to have a look at my{" "}
         <a
           href="/work"
           className="text-zinc-100 underline underline-offset-2 decoration-zinc-200/50 hover:text-white hover:decoration-zinc-200"
         >
           ML work
         </a>
-        , and my{" "}
+        , and other{" "}
         <a
           href="/projects"
           className="text-zinc-100 underline underline-offset-2 decoration-zinc-200/50 hover:text-white hover:decoration-zinc-200"
@@ -47,16 +47,16 @@ export default function Home() {
         .
       </div>
 
-      <section className="mt-8 lg:mt-12 text-base text-opacity-90 text-zinc-300">
-        If you have anything in mind,{" "}
+      <section className="mt-4 lg:mt-10 text-base text-opacity-90 text-zinc-300">
+        If you have anything in mind, {" "}
         <a
           href="mailto:contact@camilleloue.com"
           className="text-zinc-100 underline underline-offset-2 decoration-zinc-300/50 hover:text-white hover:decoration-zinc-200"
         >
-          get in touch
+          drop me an email 
         </a>
-        .
-        <div className="flex flex-col lg:flex-row gap-3 mt-8 lg:mt-12">
+        . 
+        <div className="flex flex-col lg:flex-row gap-3 mt-8 lg:mt-10">
           <h2 className="text-base text-zinc-300 text-opacity-90 order-1 lg:order-none">
             You can also find me on
           </h2>
