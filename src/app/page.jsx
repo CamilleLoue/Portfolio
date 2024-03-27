@@ -20,7 +20,7 @@ export default function Home() {
           </h1>
           <div>
             <p className="w-5/6 lg:w-full lg:mt-2 text-base font-light lg:text-lg text-zinc-400">
-              I develop tech solutions and products online.
+              I build (cool?) products online
             </p>
           </div>
         </div>
@@ -47,8 +47,8 @@ export default function Home() {
         .
       </div>
 
-      <section className="mt-4 lg:mt-10 text-base text-opacity-90 text-zinc-300">
-        If you have anything in mind, {" "}
+      <section className="lg:w-3/4 w-7/8  mt-4 lg:mt-10 text-base text-opacity-90 text-zinc-300">
+        If you find anything interesting here or just want to have chat, {" "}
         <a
           href="mailto:contact@camilleloue.com"
           className="text-zinc-100 underline underline-offset-2 decoration-zinc-300/50 hover:text-white hover:decoration-zinc-200"
