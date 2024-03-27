@@ -15,7 +15,7 @@ function Header() {
             Camille Loue
           </Link>
           <Link href="/" className="text-sm text-zinc-500">
-            Engineer & Indie maker
+            Developer & Indie maker
           </Link>
         </div>
       </div>
