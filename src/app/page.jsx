@@ -20,7 +20,7 @@ export default function Home() {
           </h1>
           <div>
             <p className="w-5/6 lg:w-full lg:mt-2 text-base font-light lg:text-lg text-zinc-400">
-              I build (cool?) products online
+              I build stuff online
             </p>
           </div>
         </div>
